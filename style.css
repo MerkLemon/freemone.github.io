@@ -1,0 +1,139 @@
+body{
+        text-align:center;
+        background-image: url("LODSOFEMONE.jpg")
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+
+#Head {
+    background-color:#32CD32;
+    color: #FF0000;
+    font-family:serif;
+    border-radius: 15px 50px;
+    opacity:0.75;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+}
+
+#Video {
+    background-color:#32CD32;
+    color: #FF0000;
+    font-family:serif;
+    border-radius: 15px 50px;
+    max-height: 480px;
+    max-width: 1250px;
+    margin: 0 auto;
+    opacity: 0.75;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+}
+
+#Intro {
+    background-color:#32CD32;
+    color: #FF0000;
+    font-family:serif;
+    border-radius: 15px 50px;
+    opacity:0.75;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+}
+
+#helplink {
+    background-color:#32CD32;
+    border-radius: 15px 50px;
+    opacity: 0.9;
+    max-height: 194px;
+    min-width: 350px;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+}
+
+#homelink {
+    background-color:#32CD32;
+    border-radius: 15px 50px;
+    opacity: 0.9;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+}
+
+#downloadlink {
+    background-color:#32CD32;
+    border-radius: 15px 50px;
+    opacity: 0.9;
+    max-height: 168px;
+    min-width: 400px;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+}
+
+#copyright {
+    background-color:#32CD32;
+    color: #FF0000;
+    font-family:serif;
+    border-radius: 15px 50px;
+    opacity:0.75;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+    margin: 0 auto;
+}
+
+#Button {
+    background-color:#32CD32;
+    color: #FF0000;
+    font-family:serif;
+    border-radius: 15px 50px;
+    opacity:0.75;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+    margin: 0 auto;
+}
+
+#windowsdl {
+    background-color:#32CD32;
+    border-radius: 15px 50px;
+    opacity: 0.9;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#macdl {
+    background-color:#32CD32;
+    border-radius: 15px 50px;
+    opacity: 0.9;
+    position: relative;
+    -webkit-animation: mymove 60s infinite;
+    animation: mymove 400s infinite;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p:hover, h1:hover, a:hover { color:#32CD32; background-color:red;}
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 1000px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1000px;}
+}
